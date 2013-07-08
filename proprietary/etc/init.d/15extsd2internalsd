@@ -1,0 +1,7 @@
+#!/system/bin/sh
+sleep 2
+mount -o remount,rw /
+mount -t vfat -o umask=0000 /dev/block/vold/179:61 /storage/sdcard0
+mount -o bind /mnt/sdcard/Android/obb /mnt/shell/emulated/obb
+mount -o bind /data/media/0 /storage/sdcard1
+chmod 777 /storage/sdcard1
