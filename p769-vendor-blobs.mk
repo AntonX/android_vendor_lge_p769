@@ -63,4 +63,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p769/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.H264E.so \
     vendor/lge/p769/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so:system/lib/libOMX.TI.DUCATI1.VIDEO.MPEG4E.so \
     vendor/lge/p769/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so:system/lib/libOMX.TI.DUCATI1.VIDEO.DECODER.secure.so \
-    vendor/lge/p769/proprietary/etc/init.d/15bindintsd:system/etc/init.d/15bindintsd
+    vendor/lge/p769/proprietary/etc/init.d/15bindintsd:system/etc/init.d/15bindintsd \
+    vendor/lge/p769/ringtones/OldTelephone1.mp3:system/media/audio/ringtones/OldTelephone1.mp3 \
+    vendor/lge/p769/ringtones/OldTelephone2.mp3:system/media/audio/ringtones/OldTelephone2.mp3 \
+    vendor/lge/p769/ringtones/OldTelephone3.mp3:system/media/audio/ringtones/OldTelephone3.mp3 \
+    vendor/lge/p769/ringtones/OldTelephone4.mp3:system/media/audio/ringtones/OldTelephone4.mp3 \
+    vendor/lge/p769/ringtones/OldTelephone5.mp3:system/media/audio/ringtones/OldTelephone5.mp3
